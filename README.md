@@ -1,22 +1,22 @@
-# 🎵 Analyse des Réseaux Sociaux — LastFM Asia Social Network
+# Analyse des Réseaux Sociaux — LastFM Asia Social Network
 
 > Projet réalisé dans le cadre du cours **Analyse des Réseaux Sociaux 2026**
 
 ---
 
-## 📌 Description
+## Description
 
 Ce projet porte sur l'analyse complète du réseau social **LastFM Asia**, un graphe d'utilisateurs de la plateforme de streaming musical Last.fm en Asie. Le travail est structuré en trois parties : collecte des données, analyse structurelle du réseau, et détection de communautés.
 
 ---
 
-## 🗂️ Structure du dépôt
+## Structure du dépôt
 
 ```
-📦 projet-ARS2026/
-├── 📓 ARS2026_LastFM_Analysis.ipynb     # Code complet (Partie 1, 2 & 3)
-├── 📓 ARS2026_LastFM_Rapport.ipynb      # Rapport final (format Jupyter)
-├── 📁 data/
+ projet-ARS2026/
+├──  ARS2026_LastFM_Analysis.ipynb     # Code complet (Partie 1, 2 & 3)
+├──  ARS2026_LastFM_Rapport.ipynb      # Rapport final (format Jupyter)
+├──  data/
 │   ├── edges.csv                        # Arêtes du réseau (amitiés)
 │   ├── targets.csv                      # Labels des nœuds (pays)
 │   ├── fig1_degree.png                  # Distribution des degrés
@@ -30,7 +30,7 @@ Ce projet porte sur l'analyse complète du réseau social **LastFM Asia**, un gr
 
 ---
 
-## 📊 Dataset — LastFM Asia Social Network
+## Dataset — LastFM Asia Social Network
 
 | Propriété | Valeur |
 |-----------|--------|
@@ -43,7 +43,7 @@ Ce projet porte sur l'analyse complète du réseau social **LastFM Asia**, un gr
 
 ---
 
-## 🔬 Parties du projet
+## Parties du projet
 
 ### Partie 1 — Collecte des données
 - Identification de la source (API publique Last.fm via GitHub)
@@ -51,11 +51,11 @@ Ce projet porte sur l'analyse complète du réseau social **LastFM Asia**, un gr
 - Construction du graphe NetworkX avec attributs de nœuds
 
 ### Partie 2 — Analyse du réseau
-- 📈 **Distribution des degrés** — loi de puissance (*scale-free*)
-- 🔗 **Composants connectés** — composant géant dominant
-- 🛤️ **Analyse des chemins** — phénomène *small-world*
-- 🔺 **Clustering et densité** — fort coefficient de clustering local
-- 🎯 **Centralité** — degree, betweenness, closeness, eigenvector
+-  **Distribution des degrés** — loi de puissance (*scale-free*)
+-  **Composants connectés** — composant géant dominant
+-  **Analyse des chemins** — phénomène *small-world*
+-  **Clustering et densité** — fort coefficient de clustering local
+-  **Centralité** — degree, betweenness, closeness, eigenvector
 
 ### Partie 3 — Détection de communautés
 Comparaison de 4 algorithmes via **CDlib** :
@@ -69,7 +69,7 @@ Comparaison de 4 algorithmes via **CDlib** :
 
 ---
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
 ![NetworkX](https://img.shields.io/badge/NetworkX-3.x-orange?style=flat)
@@ -82,7 +82,7 @@ networkx · matplotlib · seaborn · pandas · numpy · cdlib
 
 ---
 
-## ▶️ Lancer le projet
+## Lancer le projet
 
 ### 1. Cloner le dépôt
 ```bash
@@ -100,11 +100,11 @@ pip install networkx matplotlib seaborn pandas numpy cdlib requests
 jupyter notebook ARS2026_LastFM_Analysis.ipynb
 ```
 
-> ⚠️ Le dataset est téléchargé automatiquement au lancement. En cas d'échec réseau, un graphe synthétique équivalent est généré automatiquement.
+ Le dataset est téléchargé automatiquement au lancement. En cas d'échec réseau, un graphe synthétique équivalent est généré automatiquement.
 
 ---
 
-## 📝 Rapport
+## Rapport
 
 Le rapport complet (≤ 10 pages) est disponible dans le fichier :
 **`ARS2026_LastFM_Rapport.ipynb`**
@@ -113,7 +113,7 @@ Il inclut l'interprétation de chaque résultat, les tableaux de métriques et l
 
 ---
 
-## 📚 Références principales
+## Références principales
 
 - Rozemberczki & Sarkar, *Characteristic Functions on Graphs*, CIKM 2020
 - Barabási & Albert, *Emergence of Scaling in Random Networks*, Science 1999
@@ -123,8 +123,6 @@ Il inclut l'interprétation de chaque résultat, les tableaux de métriques et l
 
 ---
 
-## 👤 Auteur
+## Auteur
 
-**[Votre Nom Prénom]**  
-Cours : Analyse des Réseaux Sociaux 2026  
-Classroom Google : `y6uqvtbd`
+**[Diffo Othniel Armstrong]**  
